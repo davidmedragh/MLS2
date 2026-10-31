@@ -1,0 +1,76 @@
+--- Data Quality Audit: subscribers_raw ---
+Rows: 10,000
+Columns: 15
+
+Data types:
+subscriber_id           object
+account_id              object
+age                    float64
+gender                  object
+region                  object
+country                 object
+signup_date             object
+current_plan            object
+signup_channel          object
+device_primary          object
+household_size         float64
+churn_status             int64
+churn_date              object
+price_increase_flag      int64
+is_resub                 int64
+
+Missing values by column:
+                     missing_count  missing_percent
+subscriber_id                    0             0.00
+account_id                       0             0.00
+age                            279             2.79
+gender                         449             4.49
+region                           0             0.00
+country                          0             0.00
+signup_date                      0             0.00
+current_plan                     0             0.00
+signup_channel                   0             0.00
+device_primary                 197             1.97
+household_size                1222            12.22
+churn_status                     0             0.00
+churn_date                    6499            64.99
+price_increase_flag              0             0.00
+is_resub                         0             0.00
+
+Total missing cells: 8,646
+Duplicate rows: 0
+
+--- Data Quality Audit: watch_history_raw ---
+Rows: 306,935
+Columns: 11
+
+Data types:
+session_id                 object
+subscriber_id              object
+session_date               object
+content_id                 object
+content_category           object
+content_length_minutes      int64
+watch_duration_minutes      int64
+completion_pct            float64
+device_used                object
+time_of_day                object
+engagement_score          float64
+
+Missing values by column:
+                        missing_count  missing_percent
+session_id                          0            0.000
+subscriber_id                       0            0.000
+session_date                        0            0.000
+content_id                          0            0.000
+content_category                    0            0.000
+content_length_minutes              0            0.000
+watch_duration_minutes              0            0.000
+completion_pct                      0            0.000
+device_used                      5028            1.638
+time_of_day                         0            0.000
+engagement_score                    0            0.000
+
+Total missing cells: 5,028
+Duplicate rows: 0
+
